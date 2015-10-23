@@ -22,8 +22,8 @@
     require_once PATH_FRM . DS . 'Environment.php';
     require_once PATH_FRM . DS . 'DB.php';
     
-    define('ENVIRONMENT',strtolower(Ftl_Environment::detect()));
-
+   // define('ENVIRONMENT',strtolower(Ftl_Environment::detect()));
+    define('ENVIRONMENT','local');
     require_once PATH_FRM . DS . 'Environment' . DS . 'Config-' . ENVIRONMENT . '.php';
 
     
