@@ -11,7 +11,7 @@
             'class'         => 'Ftl_Inscripto',
             'method'        => 'obtenerListado'
         ),
-        'table'             => 'forms,xforms',
+        'table'             => 'registro',
         'fields'                => array (
 				'nombre'    => array('title'=>'Nombre','type'=>'text','filter'=>true),
 				'email'  => array('title'=>'Email'),
@@ -22,7 +22,7 @@
         
         'canOrder'          => false,
 		'canDelete'         => true,
-        'orderBy'           => 'fecha_ult_actualizacion|DESC',
+        'orderBy'           => 'fecha_ult_modificacion|DESC',
 
         'showActions'       => true,
         
