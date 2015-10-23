@@ -22,7 +22,7 @@
         
         'canOrder'          => false,
 		'canDelete'         => true,
-        'orderBy'           => 'timest|DESC',
+        'orderBy'           => 'fecha_ult_actualizacion|DESC',
 
         'showActions'       => true,
         
