@@ -63,6 +63,7 @@ class Ftl_Loader {
                             "Response"      => "/Classes/",
                             "ClaseBase"     => "/Classes/",
                             "Foto"          => "/Classes/",
+                            "Inscripto"     => "/Classes/",
 
                             //IO
                             "IOHelper"      => "/IO/",
